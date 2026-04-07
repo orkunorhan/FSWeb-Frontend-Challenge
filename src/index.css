@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+@variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-brand: #4731d3;
   --color-dark-bg: #252128;
@@ -7,21 +9,32 @@
   --color-brand-light: #cbf281;
 
   --font-inter: 'Inter', sans-serif;
-
   --breakpoint-xs: 480px;
 }
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
-    @apply font-inter transition-colors duration-300 antialiased;
+    @apply font-inter antialiased transition-colors duration-300;
     @apply bg-white text-black;
-    @apply dark:bg-[#252128] dark:text-white;
+  }
+
+  .dark body {
+    @apply bg-dark-bg text-white;
   }
 
   h1,
   h2,
   h3 {
     @apply font-bold tracking-tight;
+  }
+
+  a,
+  button {
+    @apply transition-all duration-200;
   }
 }
 

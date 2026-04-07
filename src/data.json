@@ -1,0 +1,325 @@
+{
+  "en": {
+    "navbar": {
+      "skills": "Skills",
+
+      "projects": "Projects",
+
+      "hire": "Hire me",
+
+      "dark": "DARK MODE",
+
+      "light": "LIGHT MODE",
+
+      "lang": "TÜRKÇE'YE GEÇ"
+    },
+
+    "hero": {
+      "name": "Almila Su",
+
+      "title": "Creative thinker Minimalism lover",
+
+      "description": "Hi, I'm Almila. I'm a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let's shake hands with me.",
+
+      "buttons": {
+        "hire": "Hire me",
+
+        "github": "Github",
+
+        "linkedin": "Linkedin"
+      }
+    },
+
+    "skills": {
+      "title": "Skills",
+
+      "list": [
+        {
+          "id": 1,
+
+          "title": "Java Script",
+
+          "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+
+        {
+          "id": 2,
+
+          "title": "React.Js",
+
+          "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+
+        {
+          "id": 3,
+
+          "title": "Node.Js",
+
+          "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+
+    "profile": {
+      "title": "Profile",
+
+      "leftTitle": "Profile",
+
+      "aboutTitle": "About Me",
+
+      "info": [
+        {
+          "label": "Date of Birth",
+
+          "value": "24.03.1996"
+        },
+
+        {
+          "label": "City",
+
+          "value": "Ankara"
+        },
+
+        {
+          "label": "Education",
+
+          "value": "Hacettepe University, Biology Degree, 2016"
+        },
+
+        {
+          "label": "Preferred Role",
+
+          "value": "Frontend, UI"
+        }
+      ],
+
+      "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+    },
+
+    "projects": {
+      "title": "Projects",
+
+      "list": [
+        {
+          "id": 1,
+
+          "title": "Workintech",
+
+          "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+
+          "image": "/projects/project1.png",
+
+          "technologies": ["react", "redux", "axios"],
+
+          "github": "#",
+
+          "live": "#"
+        },
+
+        {
+          "id": 2,
+
+          "title": "Random Jokes",
+
+          "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package.",
+
+          "image": "/projects/project2.png",
+
+          "technologies": ["react", "redux", "axios"],
+
+          "github": "#",
+
+          "live": "#"
+        },
+
+        {
+          "id": 3,
+
+          "title": "Journey",
+
+          "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline.",
+
+          "image": "/projects/project3.png",
+
+          "technologies": ["react", "redux", "axios"],
+
+          "github": "#",
+
+          "live": "#"
+        }
+      ]
+    },
+
+    "footer": {
+      "title": "Let’s work together on your next product.",
+
+      "email": "👉 almilasucode@gmail.com",
+
+      "links": [
+        {
+          "name": "Personal Blog",
+
+          "url": "#"
+        },
+
+        {
+          "name": "Github",
+
+          "url": "#"
+        },
+
+        {
+          "name": "Linkedin",
+
+          "url": "#"
+        }
+      ]
+    }
+  },
+
+  "tr": {
+    "navbar": {
+      "skills": "Yetenekler",
+
+      "projects": "Projeler",
+
+      "hire": "Beni işe al",
+
+      "dark": "KARANLIK MOD",
+
+      "light": "AYDINLIK MOD",
+
+      "lang": "ENGLISH"
+    },
+
+    "hero": {
+      "name": "Almila Su",
+
+      "title": "Yaratıcı düşünen Minimalist",
+
+      "description": "Merhaba, ben Almila. Full-stack geliştiriciyim. Güçlü ve ölçeklenebilir frontend ürünler geliştiren bir geliştirici arıyorsanız, birlikte çalışabiliriz.",
+
+      "buttons": {
+        "hire": "Beni işe al",
+
+        "github": "Github",
+
+        "linkedin": "Linkedin"
+      }
+    },
+
+    "skills": {
+      "title": "Yetenekler",
+
+      "list": [
+        {
+          "id": 1,
+
+          "title": "Java Script",
+
+          "description": "Örnek açıklama metni burada yer alacaktır."
+        },
+
+        {
+          "id": 2,
+
+          "title": "React.Js",
+
+          "description": "Örnek açıklama metni burada yer alacaktır."
+        },
+
+        {
+          "id": 3,
+
+          "title": "Node.Js",
+
+          "description": "Örnek açıklama metni burada yer alacaktır."
+        }
+      ]
+    },
+
+    "profile": {
+      "title": "Profil",
+
+      "leftTitle": "Profil",
+
+      "aboutTitle": "Hakkımda",
+
+      "info": [
+        {
+          "label": "Doğum tarihi",
+
+          "value": "24.03.1996"
+        },
+
+        {
+          "label": "İkamet Şehri",
+
+          "value": "Ankara"
+        },
+
+        {
+          "label": "Eğitim Durumu",
+
+          "value": "Hacettepe Ünv. Biyoloji Lisans, 2016"
+        },
+
+        {
+          "label": "Tercih Ettiği Rol",
+
+          "value": "Frontend, UI"
+        }
+      ],
+
+      "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+    },
+
+    "projects": {
+      "title": "Projeler",
+
+      "list": [
+        {
+          "id": 1,
+
+          "title": "Workintech",
+
+          "description": "Proje açıklaması",
+
+          "image": "/projects/project1.png",
+
+          "technologies": ["react", "redux", "axios"],
+
+          "github": "#",
+
+          "live": "#"
+        }
+      ]
+    },
+
+    "footer": {
+      "title": "Birlikte çalışalım.",
+
+      "email": "👉 almilasucode@gmail.com",
+
+      "links": [
+        {
+          "name": "Blog",
+
+          "url": "#"
+        },
+
+        {
+          "name": "Github",
+
+          "url": "#"
+        },
+
+        {
+          "name": "Linkedin",
+
+          "url": "#"
+        }
+      ]
+    }
+  }
+}
