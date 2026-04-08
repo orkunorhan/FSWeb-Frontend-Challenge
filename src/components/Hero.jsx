@@ -37,7 +37,8 @@ export default function Hero() {
                     </button>
 
                     <a
-                        href="#"
+                        href="https://github.com/orkunorhan"
+                        target='_blank'
                         className="flex items-center gap-3 px-6 py-3 border border-brand text-brand rounded-md font-bold hover:bg-brand hover:text-white transition-all dark:bg-[#383838] dark:border-[#383838] dark:text-[#E1E1FF]"
                     >
                         <FontAwesomeIcon icon={faGithub} className="text-xl" />
@@ -45,7 +46,8 @@ export default function Hero() {
                     </a>
 
                     <a
-                        href="#"
+                        href="https://www.linkedin.com/in/orkunorhan/"
+                        target='_blank'
                         className="flex items-center gap-3 px-6 py-3 border border-brand text-brand rounded-md font-bold hover:bg-brand hover:text-white transition-all dark:bg-[#383838] dark:border-[#383838] dark:text-[#E1E1FF]"
                     >
                         <FontAwesomeIcon icon={faLinkedinIn} className="text-xl" />
@@ -56,7 +58,7 @@ export default function Hero() {
 
             <div className="shrink-0">
                 <img
-                    src="/profile.jpg"
+                    src="src/assets/20220624_193840.webp"
                     alt="Profile"
                     className="w-[350px] h-[350px] md:w-[450px] md:h-[350px] object-cover rounded-2xl shadow-2xl"
                 />

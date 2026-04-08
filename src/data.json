@@ -11,15 +11,15 @@
 
       "light": "LIGHT MODE",
 
-      "lang": "TÜRKÇE'YE GEÇ"
+      "lang": "TÜRKÇE"
     },
 
     "hero": {
-      "name": "Almila Su",
+      "name": "Orkun Orhan",
 
       "title": "Creative thinker Minimalism lover",
 
-      "description": "Hi, I'm Almila. I'm a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let's shake hands with me.",
+      "description": "Hi, I'm Orkun. I'm a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let's shake hands with me.",
 
       "buttons": {
         "hire": "Hire me",
@@ -39,7 +39,7 @@
 
           "title": "Java Script",
 
-          "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "description": "Building dynamic and interactive user interfaces using modern JavaScript (ES6+). Proficient in asynchronous programming and DOM manipulation to create seamless user experiences."
         },
 
         {
@@ -47,7 +47,7 @@
 
           "title": "React.Js",
 
-          "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "description": "Developing fast and scalable Single Page Applications (SPA) with a component-based architecture. Experienced in React Hooks, Context API, and state management for robust web solutions."
         },
 
         {
@@ -55,7 +55,7 @@
 
           "title": "Node.Js",
 
-          "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "description": "Designing and implementing high-performance, event-driven backend solutions and RESTful APIs using Node.js to bridge the gap between frontend and server-side."
         }
       ]
     },
@@ -71,19 +71,19 @@
         {
           "label": "Date of Birth",
 
-          "value": "24.03.1996"
+          "value": "19.02.1996"
         },
 
         {
           "label": "City",
 
-          "value": "Ankara"
+          "value": "İzmir"
         },
 
         {
           "label": "Education",
 
-          "value": "Hacettepe University, Biology Degree, 2016"
+          "value": "Kocaeli University. Computer Programming, 2022"
         },
 
         {
@@ -93,7 +93,7 @@
         }
       ],
 
-      "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+      "about": "I am a Frontend enthusiast focused on building user-centric projects using modern web technologies. While specializing in the React ecosystem, I prioritize software quality through tools like Cypress and emphasize Clean Code principles. Driven by a passion for continuous learning, I enjoy transforming complex problems into simple, scalable, and efficient digital solutions."
     },
 
     "projects": {
@@ -103,15 +103,15 @@
         {
           "id": 1,
 
-          "title": "Workintech",
+          "title": "Pizza Restaurant Landing Page",
 
-          "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+          "description": "A user-friendly restaurant promotional page developed with modern design principles and a responsive architecture.",
 
-          "image": "/projects/project1.png",
+          "image": "src/assets/localhost_5174.webp",
 
-          "technologies": ["react", "redux", "axios"],
+          "technologies": ["html", "css", "responsive-design"],
 
-          "github": "#",
+          "github": "https://github.com/orkunorhan/fsweb-s4-bonus-challenge-html-pizza",
 
           "live": "#"
         },
@@ -119,15 +119,15 @@
         {
           "id": 2,
 
-          "title": "Random Jokes",
+          "title": "E2E Test Automation Suite",
 
-          "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package.",
+          "description": "An end-to-end test automation and quality assurance project structured using Cypress for Vite and React-based applications.",
 
-          "image": "/projects/project2.png",
+          "image": "src/assets/localhost_5173.webp",
 
-          "technologies": ["react", "redux", "axios"],
+          "technologies": ["react", "vite", "cypress", "javascript"],
 
-          "github": "#",
+          "github": "https://github.com/orkunorhan/react-vite-cypress-e2e",
 
           "live": "#"
         },
@@ -135,15 +135,15 @@
         {
           "id": 3,
 
-          "title": "Journey",
+          "title": "Interactive Pizza Order System",
 
-          "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline.",
+          "description": "A comprehensive order management interface built on React, featuring dynamic form management and complex user selections.",
 
-          "image": "/projects/project3.png",
+          "image": "src/assets/localhost_5174_order.webp",
 
-          "technologies": ["react", "redux", "axios"],
+          "technologies": ["react", "react-router-dom", "axios"],
 
-          "github": "#",
+          "github": "https://github.com/orkunorhan/fsweb-s8-challenge-pizza",
 
           "live": "#"
         }
@@ -153,7 +153,7 @@
     "footer": {
       "title": "Let’s work together on your next product.",
 
-      "email": "👉 almilasucode@gmail.com",
+      "email": "👉 orkunorhan1996@gmail.com",
 
       "links": [
         {
@@ -165,13 +165,13 @@
         {
           "name": "Github",
 
-          "url": "#"
+          "url": "https://github.com/orkunorhan"
         },
 
         {
           "name": "Linkedin",
 
-          "url": "#"
+          "url": "https://www.linkedin.com/in/orkunorhan/"
         }
       ]
     }
@@ -193,11 +193,11 @@
     },
 
     "hero": {
-      "name": "Almila Su",
+      "name": "Orkun Orhan",
 
       "title": "Yaratıcı düşünen Minimalist",
 
-      "description": "Merhaba, ben Almila. Full-stack geliştiriciyim. Güçlü ve ölçeklenebilir frontend ürünler geliştiren bir geliştirici arıyorsanız, birlikte çalışabiliriz.",
+      "description": "Merhaba, ben Orkun. Full-stack geliştiriciyim. Güçlü ve ölçeklenebilir frontend ürünler geliştiren bir geliştirici arıyorsanız, birlikte çalışabiliriz.",
 
       "buttons": {
         "hire": "Beni işe al",
@@ -217,7 +217,7 @@
 
           "title": "Java Script",
 
-          "description": "Örnek açıklama metni burada yer alacaktır."
+          "description": "Modern web uygulamalarının temel taşı olan JavaScript ile dinamik, etkileşimli ve kullanıcı odaklı arayüzler geliştiriyorum. ES6+ özelliklerine ve asenkron programlama mantığına hakimim."
         },
 
         {
@@ -225,7 +225,7 @@
 
           "title": "React.Js",
 
-          "description": "Örnek açıklama metni burada yer alacaktır."
+          "description": "Bileşen tabanlı (component-based) mimariyi kullanarak hızlı ve ölçeklenebilir tek sayfa uygulamaları (SPA) geliştiriyorum. Hooks, Context API ve performans optimizasyonu konularında deneyim sahibiyim."
         },
 
         {
@@ -233,7 +233,7 @@
 
           "title": "Node.Js",
 
-          "description": "Örnek açıklama metni burada yer alacaktır."
+          "description": "Sunucu tarafında JavaScript kullanarak performanslı, olay güdümlü (event-driven) ve ölçeklenebilir backend çözümleri ile RESTful API'lar tasarlayıp uyguluyorum."
         }
       ]
     },
@@ -249,19 +249,19 @@
         {
           "label": "Doğum tarihi",
 
-          "value": "24.03.1996"
+          "value": "19.02.1996"
         },
 
         {
           "label": "İkamet Şehri",
 
-          "value": "Ankara"
+          "value": "İzmir"
         },
 
         {
           "label": "Eğitim Durumu",
 
-          "value": "Hacettepe Ünv. Biyoloji Lisans, 2016"
+          "value": "Kocaeli Üniversitesi. Bilgisayar Programcılığı, 2022"
         },
 
         {
@@ -271,7 +271,7 @@
         }
       ],
 
-      "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+      "about": "Modern web teknolojileriyle kullanıcı deneyimi odaklı projeler geliştiren bir Frontend tutkunuyum. React ekosisteminde uzmanlaşırken, sadece kod yazmaya değil, aynı zamanda Cypress gibi araçlarla yazılım kalitesini garanti altına almaya ve temiz kod prensiplerine (Clean Code) önem veriyorum. Sürekli öğrenme motivasyonuyla, karmaşık problemleri basit ve ölçeklenebilir çözümlere dönüştürmekten keyif alıyorum."
     },
 
     "projects": {
@@ -281,15 +281,45 @@
         {
           "id": 1,
 
-          "title": "Workintech",
+          "title": "Pizza Restoranı Tanıtım Sayfası",
 
-          "description": "Proje açıklaması",
+          "description": "Modern tasarım prensipleri ve duyarlı (responsive) mimari ile geliştirilmiş, kullanıcı dostu bir restoran açılış sayfasıdır.",
 
-          "image": "/projects/project1.png",
+          "image": "src/assets/localhost_5174.webp",
 
-          "technologies": ["react", "redux", "axios"],
+          "technologies": ["html", "css", "responsive-design"],
 
-          "github": "#",
+          "github": "https://github.com/orkunorhan/fsweb-s4-bonus-challenge-html-pizza",
+
+          "live": "#"
+        },
+        {
+          "id": 2,
+
+          "title": "Uçtan Uca Test Otomasyon Seti",
+
+          "description": "Vite ve React tabanlı uygulamalar için Cypress kullanılarak kurgulanmış, kapsamlı bir test otomasyonu ve kalite güvence projesidir.",
+
+          "image": "src/assets/localhost_5173.webp",
+
+          "technologies": ["react", "vite", "cypress", "javascript"],
+
+          "github": "https://github.com/orkunorhan/react-vite-cypress-e2e",
+
+          "live": "#"
+        },
+        {
+          "id": 3,
+
+          "title": "Etkileşimli Pizza Sipariş Sistemi",
+
+          "description": "Dinamik form yönetimi ve karmaşık kullanıcı seçimlerini içeren, React üzerine kurulu kapsamlı bir sipariş yönetim arayüzüdür.",
+
+          "image": "src/assets/localhost_5174_order.webp",
+
+          "technologies": ["react", "react-router-dom", "axios"],
+
+          "github": "https://github.com/orkunorhan/fsweb-s8-challenge-pizza",
 
           "live": "#"
         }
@@ -299,7 +329,7 @@
     "footer": {
       "title": "Birlikte çalışalım.",
 
-      "email": "👉 almilasucode@gmail.com",
+      "email": "👉 orkunorhan1996@gmail.com",
 
       "links": [
         {
@@ -311,13 +341,13 @@
         {
           "name": "Github",
 
-          "url": "#"
+          "url": "https://github.com/orkunorhan"
         },
 
         {
           "name": "Linkedin",
 
-          "url": "#"
+          "url": "https://www.linkedin.com/in/orkunorhan/"
         }
       ]
     }

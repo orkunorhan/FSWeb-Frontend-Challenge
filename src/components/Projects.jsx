@@ -7,7 +7,7 @@ export default function Projects() {
     const projectData = data[lang].projects;
 
     return (
-        <section id="projects" className="py-20 px-6 md:px-32 max-w-360 mx-auto">
+        <section id="projects" className="py-5 px-6 md:px-32 max-w-360 mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-[#1F2937] dark:text-[#AEBCCF]">
                 {projectData.title}
             </h2>

@@ -7,7 +7,7 @@ export default function Skills() {
     const skillsData = data[lang].skills;
 
     return (
-        <section id="skills" className="py-20 px-6 md:px-32 max-w-360 mx-auto">
+        <section id="skills" className="py-5 px-6 md:px-32 max-w-360 mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-[#1F2937] dark:text-[#AEBCCF]">
                 {skillsData.title}
             </h2>
@@ -25,7 +25,7 @@ export default function Skills() {
                 ))}
             </div>
 
-            <div className="mt-20 border-t border-[#F4F4F4] dark:border-dark-bg"></div>
+            <div className="mt-20 border-t border-[#BAB2E7]"></div>
         </section>
     );
 }

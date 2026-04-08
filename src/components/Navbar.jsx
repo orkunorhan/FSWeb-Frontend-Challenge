@@ -47,7 +47,7 @@ export default function Navbar() {
 
             <div className="flex justify-between items-center">
                 <div className="w-12 h-12 bg-[#EEEBFF] dark:bg-[#4731D3] rounded-full flex items-center justify-center text-brand dark:text-[#8F88FF] font-bold text-2xl -rotate-12 transition-all">
-                    A
+                    O
                 </div>
 
                 <div className="flex items-center gap-8 md:gap-20 text-[#6B7280] dark:text-[#777777] font-medium text-lg">

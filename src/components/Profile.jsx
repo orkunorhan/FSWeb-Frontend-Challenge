@@ -7,7 +7,7 @@ export default function Profile() {
     const t = data[lang].profile;
 
     return (
-        <section className="py-20 px-6 md:px-32 max-w-360 mx-auto">
+        <section className="py-5 px-6 md:px-32 max-w-360 mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-10 text-[#1F2937] dark:text-[#AEBCCF]">
                 {t.title}
             </h2>
@@ -42,7 +42,7 @@ export default function Profile() {
                 </div>
             </div>
 
-            <div className="mt-20 border-t border-[#F4F4F4] dark:border-dark-bg"></div>
+            <div className="mt-20 border-t border-[#BAB2E7]"></div>
         </section>
     );
 }
