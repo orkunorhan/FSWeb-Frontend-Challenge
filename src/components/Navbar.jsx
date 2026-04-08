@@ -2,6 +2,8 @@ import { useContext } from 'react';
 import { ThemeContext } from '../contexts/ThemeContext';
 import { LanguageContext } from '../contexts/LanguageContext';
 import data from '../data.json';
+import axios from 'axios';
+import { toast } from 'react-toastify';
 
 export default function Navbar() {
     const { isDarkMode, toggleDarkMode } = useContext(ThemeContext);
@@ -9,17 +11,71 @@ export default function Navbar() {
 
     const t = data[lang].navbar;
 
+    const handleHireMe = () => {
+        const toastId = toast.loading(
+            lang === 'tr' ? 'İletişim isteği gönderiliyor...' : 'Sending hire request...'
+        );
+
+        const payload = {
+            language: lang,
+            theme: isDarkMode ? 'dark' : 'light',
+        };
+
+        axios
+            .post('https://reqres.in/api/workintech', payload, {
+                //reqres-free-v1
+                headers: {
+                    'x-api-key': 'reqres-free-v1',
+                },
+            })
+            .then((response) => {
+                console.log(
+                    `[API] ${lang === 'tr' ? 'Beni İşe Al - Başarılı' : 'Hire Me - Success'}`,
+                    response.data
+                );
+                toast.update(toastId, {
+                    render:
+                        lang === 'tr' ? 'Mesajınız başarıyla iletildi! 🎉' : 'Message sent successfully! 🎉',
+                    type: 'success',
+                    isLoading: false,
+                    autoClose: 3000,
+                });
+            })
+            .catch((error) => {
+                console.warn(
+                    `[API] ${lang === 'tr' ? 'Beni İşe Al - Hata' : 'Hire Me - Error'}`,
+                    error.message || error
+                );
+                toast.update(toastId, {
+                    render:
+                        lang === 'tr' ? 'Hata oluştu, tekrar deneyin.' : 'Error occurred, try again.',
+                    type: 'error',
+                    isLoading: false,
+                    autoClose: 3000,
+                });
+            });
+    };
+
     return (
         <nav className="flex flex-col gap-8 pt-10 pb-6 px-6 md:px-32 max-w-360 mx-auto">
             <div className="flex justify-end items-center gap-4 text-xs font-bold tracking-widest">
+
                 <div
-                    className="flex items-center gap-3 cursor-pointer select-none"
+                    className="flex items-center gap-3 cursor-pointer select-none group"
                     onClick={toggleDarkMode}
                 >
                     <div className={`w-12 h-6 rounded-full relative transition-colors duration-300 ${isDarkMode ? 'bg-[#3A3A3A]' : 'bg-brand'}`}>
-                        <div className={`w-4 h-4 bg-[#FFE86E] rounded-full absolute top-1 transition-all duration-300 ${isDarkMode ? 'left-7' : 'left-1'}`}></div>
+
+                        <div className={`w-4 h-4 rounded-full absolute top-1 transition-all duration-300
+            ${isDarkMode ? 'left-1 bg-[#FFE86E]' : 'left-7 bg-[#FFE86E]'}`}>
+
+                            {isDarkMode && (
+                                <div className="w-4 h-4 bg-[#3A3A3A] rounded-full absolute left-1.5"></div>
+                            )}
+                        </div>
                     </div>
-                    <span className="text-[#777777] dark:text-[#D9D9D9] uppercase">
+
+                    <span className="text-[#777777] dark:text-[#D9D9D9] uppercase transition-colors group-hover:text-brand">
                         {isDarkMode ? t.light : t.dark}
                     </span>
                 </div>
@@ -39,10 +95,13 @@ export default function Navbar() {
                     A
                 </div>
 
-                <div className="flex items-center gap-8 md:gap-20 text-[#6B7280] dark:text-[#6B7280] font-medium text-lg">
+                <div className="flex items-center gap-8 md:gap-20 text-[#6B7280] dark:text-[#777777] font-medium text-lg">
                     <a href="#skills" className="hover:text-brand transition-colors">{t.skills}</a>
                     <a href="#projects" className="hover:text-brand transition-colors">{t.projects}</a>
-                    <button className="px-8 py-3 bg-white text-brand border border-brand rounded-md font-bold hover:bg-brand hover:text-white dark:bg-white dark:text-black transition-all">
+                    <button
+                        onClick={handleHireMe}
+                        className="px-8 py-3 bg-white text-brand border border-brand rounded-md font-bold hover:bg-brand hover:text-white dark:bg-dark-bg dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black transition-all"
+                    >
                         {t.hire}
                     </button>
                 </div>

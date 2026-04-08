@@ -1,3 +1,4 @@
+import { ToastContainer } from 'react-toastify';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -14,6 +15,7 @@ function App() {
       <Profile />
       <Projects />
       <Footer />
+      <ToastContainer position="top-left" autoClose={3000} />
     </div>
   );
 }
