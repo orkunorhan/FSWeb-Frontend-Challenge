@@ -4,9 +4,11 @@ import { LanguageContext } from '../contexts/LanguageContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import data from '../data.json';
+import { useHireMe } from '../hooks/useHireMe';
 
 export default function Hero() {
     const { lang } = useContext(LanguageContext);
+    const { handleHireMe } = useHireMe();
     const t = data[lang].hero;
 
     return (
@@ -30,7 +32,7 @@ export default function Hero() {
 
                 <div className="flex flex-wrap gap-3">
 
-                    <button className="px-10 py-3 bg-brand text-white rounded-md font-bold hover:opacity-90 transition-all">
+                    <button onClick={handleHireMe} className="px-10 py-3 bg-brand text-white rounded-md font-bold hover:opacity-90 transition-all">
                         {t.buttons.hire}
                     </button>
 
