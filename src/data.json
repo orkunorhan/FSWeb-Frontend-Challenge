@@ -107,7 +107,7 @@
 
           "description": "A user-friendly restaurant promotional page developed with modern design principles and a responsive architecture.",
 
-          "image": "src/assets/localhost_5174.webp",
+          "image": "/localhost_5174.webp",
 
           "technologies": ["html", "css", "responsive-design"],
 
@@ -123,7 +123,7 @@
 
           "description": "An end-to-end test automation and quality assurance project structured using Cypress for Vite and React-based applications.",
 
-          "image": "src/assets/localhost_5173.webp",
+          "image": "/localhost_5173.webp",
 
           "technologies": ["react", "vite", "cypress", "javascript"],
 
@@ -139,7 +139,7 @@
 
           "description": "A comprehensive order management interface built on React, featuring dynamic form management and complex user selections.",
 
-          "image": "src/assets/localhost_5174_order.webp",
+          "image": "/localhost_5174_order.webp",
 
           "technologies": ["react", "react-router-dom", "axios"],
 
@@ -285,7 +285,7 @@
 
           "description": "Modern tasarım prensipleri ve duyarlı (responsive) mimari ile geliştirilmiş, kullanıcı dostu bir restoran açılış sayfasıdır.",
 
-          "image": "src/assets/localhost_5174.webp",
+          "image": "/localhost_5174.webp",
 
           "technologies": ["html", "css", "responsive-design"],
 
@@ -300,7 +300,7 @@
 
           "description": "Vite ve React tabanlı uygulamalar için Cypress kullanılarak kurgulanmış, kapsamlı bir test otomasyonu ve kalite güvence projesidir.",
 
-          "image": "src/assets/localhost_5173.webp",
+          "image": "/localhost_5173.webp",
 
           "technologies": ["react", "vite", "cypress", "javascript"],
 
@@ -315,7 +315,7 @@
 
           "description": "Dinamik form yönetimi ve karmaşık kullanıcı seçimlerini içeren, React üzerine kurulu kapsamlı bir sipariş yönetim arayüzüdür.",
 
-          "image": "src/assets/localhost_5174_order.webp",
+          "image": "/localhost_5174_order.webp",
 
           "technologies": ["react", "react-router-dom", "axios"],
 

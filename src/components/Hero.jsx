@@ -58,7 +58,7 @@ export default function Hero() {
 
             <div className="shrink-0">
                 <img
-                    src="src/assets/20220624_193840.webp"
+                    src="/20220624_193840.webp"
                     alt="Profile"
                     className="w-[350px] h-[350px] md:w-[450px] md:h-[350px] object-cover rounded-2xl shadow-2xl"
                 />
