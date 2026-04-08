@@ -24,7 +24,7 @@ export const useHireMe = () => {
       .post('https://reqres.in/api/workintech', payload, {
         //reqres-free-v1
         headers: {
-          'x-api-key': 'reqres-free-v1',
+          'x-api-key': import.meta.env.VITE_API_KEY,
         },
       })
       .then((response) => {
