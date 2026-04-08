@@ -113,7 +113,7 @@
 
           "github": "https://github.com/orkunorhan/fsweb-s4-bonus-challenge-html-pizza",
 
-          "live": "#"
+          "live": "https://fsweb-s4-bonus-challenge-html-pizza-ebon.vercel.app/"
         },
 
         {
@@ -129,7 +129,7 @@
 
           "github": "https://github.com/orkunorhan/react-vite-cypress-e2e",
 
-          "live": "#"
+          "live": "https://react-vite-cypress-e2e.vercel.app/"
         },
 
         {
@@ -145,7 +145,7 @@
 
           "github": "https://github.com/orkunorhan/fsweb-s8-challenge-pizza",
 
-          "live": "#"
+          "live": "https://fsweb-s8-challenge-pizza-black.vercel.app/"
         }
       ]
     },
@@ -291,7 +291,7 @@
 
           "github": "https://github.com/orkunorhan/fsweb-s4-bonus-challenge-html-pizza",
 
-          "live": "#"
+          "live": "https://fsweb-s4-bonus-challenge-html-pizza-ebon.vercel.app/"
         },
         {
           "id": 2,
@@ -306,7 +306,7 @@
 
           "github": "https://github.com/orkunorhan/react-vite-cypress-e2e",
 
-          "live": "#"
+          "live": "https://react-vite-cypress-e2e.vercel.app/"
         },
         {
           "id": 3,
@@ -321,7 +321,7 @@
 
           "github": "https://github.com/orkunorhan/fsweb-s8-challenge-pizza",
 
-          "live": "#"
+          "live": "https://fsweb-s8-challenge-pizza-black.vercel.app/"
         }
       ]
     },
